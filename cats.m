@@ -914,7 +914,6 @@ switch(uiStyle)
                 'FontSize',             10);
             resize_ui(h_out{n});
             set(h_out{n}, 'Units', 'Normalized');
-            brant_resize_ui(h_out{n});
         end
     
     case {'checkbox', 'radiobutton'}
@@ -931,7 +930,6 @@ switch(uiStyle)
                 'Style',            uiStyle);
             resize_ui(h_out{n});
             set(h_out{n}, 'Units', 'Normalized');
-            brant_resize_ui(h_out{n});
         end
 end
 
