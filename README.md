@@ -1,6 +1,6 @@
-#Computer Aided Tumor Segmentation (CATS)
+# Computer Aided Tumor Segmentation (CATS)
 ![octocat](https://github.com/kbxu/cats/blob/master/CATS.png)
-##CATS applied GRF to segment tumor in T1/T2 image data. Users would need to  
+## Operations: users would need to operate below commands in **MATLAB** after adding the scripts to search path.
 1. Input a data file by pressing 'i';  
 2. Scroll wheel to select a transverse slice where tumor lies.  
 3. Select tumor zone using left button to draw a green line and background zone using right button to draw a read line. The thickness of lines can be adjusted using '+'/'-';  
@@ -9,7 +9,7 @@
 6. Type 'c' to clean the mask if the result is not good;  
 7. When tumor ROIs on all slices have been segmented, press 'o' to output masks to the data folder.  
 
-##Keyboard & Mouse functions:
+## Keyboard & Mouse functions:
 h: help window;   
 i: open a new nifti file (*.nii, *.img, *.nii.gz);  
 left mouse draw: mark foreground with green brush;  
@@ -25,4 +25,4 @@ m: show/hide masks;
 o: output to a mask file;  
 Hint: select checkboxes to change view along with the main image
 
-If the checkbox of a subplot is checked, the image will change with wheel scrolling. To make scroll more smooth, choose only the wanted plots.
+To make scrolling more smooth, select only the wanted plots.
